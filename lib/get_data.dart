@@ -2,7 +2,7 @@ import "package:flutter/material.dart";
 import 'dart:convert' as convert;
 import 'package:http/http.dart' as http;
 
-Future List<String> get_list() async{
+Future List<String> getList() async{
   var list_data = [];
   var url = Uri.parse(
       'https://www.wsmeguro.jp/weather/weather_data.php?input_data=list');
